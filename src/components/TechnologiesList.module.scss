@@ -1,0 +1,9 @@
+.list {
+    grid-column: center-start/center-end;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    gap: 2rem;
+    align-items: center;
+    -webkit-box-align: center;
+    grid-row: auto;
+}

@@ -1,0 +1,29 @@
+@import "./../scss/abstracts/variables";
+@import "./../scss/abstracts/mixins";
+.heading {
+	&--1 {
+		font-size: 6rem;
+		@include heading;
+	}
+	&--2 {
+		font-size: 3.5rem;
+		@include respond(tab-port) {
+			font-size: 3rem;
+		}
+		@include respond(phone) {
+			font-size: 2.5rem;
+		}
+		@include heading;
+	}
+	&--3 {
+		font-size: 2.2rem;
+	}
+}
+
+.animation {
+	transition: all 0.2s;
+	&:hover {
+		transform: skewY(2deg) skewX(15deg) scale(1.1);
+		text-shadow: 0.5rem 1rem 2rem rgba(#000, 0.2);
+	}
+}

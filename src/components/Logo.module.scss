@@ -1,0 +1,17 @@
+@import "./../scss/abstracts/mixins";
+.header__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.logo {
+    height: 3.8rem;
+    transform: translateY(0.6rem);
+    @include respond(tab-port) {
+        transform: translateY(0.3rem);
+    }
+    @include respond(phone) {
+        transform: translateY(0);
+    }
+}

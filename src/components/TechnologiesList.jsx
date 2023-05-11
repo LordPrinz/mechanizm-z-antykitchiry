@@ -8,13 +8,13 @@ const data = [
 			"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
 		url: "https://pl.reactjs.org/",
 		description:
-			"Javascriptowa biblioteka służąca do tworzenia interfejsów użytkownika.",
+			"Biblioteka JavaScript służąca do tworzenia interfejsów użytkownika.",
 	},
 	{
 		name: "SCSS",
 		image: "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
 		url: "https://sass-lang.com/",
-		description: "Potężne rozszerzenie CSS.",
+		description: "Zaawansowane rozszerzenie języka CSS.",
 	},
 	{
 		name: "react-scroll-parallax",
@@ -35,14 +35,14 @@ const data = [
 		image: "https://vitejs.dev/logo.svg",
 		url: "https://vitejs.dev/",
 		description:
-			"Przyszłościowe narzędzie przyspieszające proces pisania stron.",
+			"Przyszłościowe narzędzie przyspieszające proces kompilacji kodu stron.",
 	},
 	{
 		name: "JavaScript",
 		image:
 			"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png",
 		url: "https://www.javascript.com/",
-		description: "Popularny i potężny język programowania.",
+		description: "Popularny język programowania.",
 	},
 	{
 		name: "Visual Studio Code",
@@ -63,6 +63,21 @@ const data = [
 		image: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
 		url: "https://www.figma.com/",
 		description: "Darmowe narzędzie do projektowania UI użytkownika.",
+	},
+	{
+		name: "OpenGL",
+		image: "https://www.khronos.org/assets/images/api_logos/opengl.svg",
+		url: "https://www.opengl.org/",
+		description:
+			"Specyfikacja otwartego API służąca do renderowania i tworzenia wysokiej jakości grafiki, animacji oraz obrazów przestrzennych",
+	},
+	{
+		name: "Threejs",
+		image:
+			"https://seeklogo.com/images/T/three-js-logo-07A32307F1-seeklogo.com.png",
+		url: "https://threejs.org/",
+		description:
+			"Biblioteka JavaScript ułatwiająca zamieszczanie obiektów 3D w przeglądarce",
 	},
 ];
 

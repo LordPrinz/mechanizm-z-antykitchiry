@@ -4,7 +4,9 @@ const NavigationButton = (props) => {
 	return (
 		<button className={classes.navigation__button} onClick={props.onClick}>
 			<span
-				className={`${classes.navigation__icon} ${props.isActive && classes.active}`}
+				className={`${classes.navigation__icon} ${
+					props.isActive ? classes.active : ""
+				}`}
 			>
 				&nbsp;
 			</span>

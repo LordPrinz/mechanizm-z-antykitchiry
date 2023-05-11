@@ -14,22 +14,23 @@ const AboutMe = () => {
 						O Autorze
 					</Heading>
 				</header>
-				<Paragraph className={`${classes.paragraph} "u-margin-bottom-big`}>
-					Nazywam się Oskar Płaziński, mam 18 lat. Chodzę do Technikum nr 1 w Gliwicach.
-					Jestem w klasie 3 programistycznej. Uwielbiam programować i grać na pianinie.
-					Moim ulubionym językiem programowania jest Typescript / JavaScript. Bardzo
-					często używam tych języków do tworzenia aplikacji internetowych, serwerów,
-					botów, aplikacji mobilnych oraz aplikacji desktopowych. Chciałbym się dalej
-					rozwijać i nabierać doświadczenia w tej branży.
+				<Paragraph className={`u-margin-bottom-big`}>
+					Nazywam się Oskar Płaziński, mam 18 lat. Chodzę do Technikum nr 1 w
+					Gliwicach. Jestem w klasie 3 programistycznej. Uwielbiam programować i
+					grać na pianinie. Moim ulubionym językiem programowania jest
+					Typescript / JavaScript. Bardzo często używam tych języków do
+					tworzenia aplikacji internetowych, serwerów, botów, aplikacji
+					mobilnych oraz aplikacji desktopowych. Chciałbym się dalej rozwijać i
+					nabierać doświadczenia w tej branży.
 				</Paragraph>
 				<Heading className="u-margin-bottom-small" size="3">
 					Dlaczego Mechanizm z Antykithiry?
 				</Heading>
 				<Paragraph>
-					Wybrałem temat związany z Mechanizmem z Antykithiry, ponieważ myślę, że ta
-					tematyka jest stosunkowo mało popularna, a tworząc tę stronę miałem na celu w
-					sposób przystępny, kolorowy i ciekawy przedstawić koncept tego niezwykłego
-					urządzenia.
+					Wybrałem temat związany z Mechanizmem z Antykithiry, ponieważ myślę,
+					że ta tematyka jest stosunkowo mało popularna, a tworząc tę stronę
+					miałem na celu w sposób przystępny, kolorowy i ciekawy przedstawić
+					koncept tego niezwykłego urządzenia.
 				</Paragraph>
 				<Button className={`${classes.btn}`} target="#technologies">
 					Technologie &rarr;

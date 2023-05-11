@@ -28,7 +28,7 @@ const Slide = (props) => {
 				))}
 			</div>
 			<div className={classes.img__cover}>
-				<img src={`${props.img}`} className={classes.img} />
+				<img src={`${props.img}`} className={classes.img} alt="Slider" />
 			</div>
 		</div>
 	);
@@ -40,7 +40,7 @@ const Slide = (props) => {
 			} ${props.className ?? ""}`}
 		>
 			<div className={classes.img__cover}>
-				<img src={`${props.img}`} className={classes.img} />
+				<img src={`${props.img}`} className={classes.img} alt="Slider" />
 			</div>
 		</div>
 	) : (

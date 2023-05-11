@@ -1,4 +1,3 @@
-import useDocumentTitle from "../hooks/useDocumentTitle";
 import About from "../layout/About";
 import Construction from "../layout/Construction";
 import Footer from "../layout/Footer";
@@ -12,10 +11,6 @@ import Research from "../layout/Research";
 import Visualization from "../layout/Visualization";
 
 const Main = () => {
-	const [documentTitle, setDocumentTitle] = useDocumentTitle(
-		"Mechanizm z Antykithiry"
-	);
-
 	return (
 		<Layout>
 			<Navigation />

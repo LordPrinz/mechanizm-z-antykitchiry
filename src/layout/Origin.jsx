@@ -89,7 +89,7 @@ const Origin = () => {
 						alt="spongebob house"
 					/>
 					<img
-						src="./ship_wreck"
+						src="./ship_wreck.svg"
 						className={classes["wreck-img"]}
 						alt="ship wreck"
 					/>

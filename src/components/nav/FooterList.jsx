@@ -1,6 +1,40 @@
-import linksData from "./../../assets/data/navigation.json";
 import FooterLink from "./FooterLink";
 import classes from "./FooterList.module.scss";
+
+const linksData = [
+	{
+		name: "Wstęp",
+		url: "/#",
+	},
+	{
+		name: "O Mechaniźmie",
+		url: "/#about",
+	},
+	{
+		name: "Pochodzenie",
+		url: "/#origin",
+	},
+	{
+		name: "Budowa",
+		url: "/#construction",
+	},
+	{
+		name: "Badania",
+		url: "/#research",
+	},
+	{
+		name: "Wizualizacja",
+		url: "/#visualization",
+	},
+	{
+		name: "Implementacja",
+		url: "/#implementations",
+	},
+	{
+		name: "O Mnie",
+		url: "/about",
+	},
+];
 
 const FooterList = () => {
 	return (

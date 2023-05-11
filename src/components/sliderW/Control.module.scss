@@ -1,0 +1,12 @@
+@import "./../../scss/abstracts/mixins";
+
+.control {
+	flex: 1;
+	align-self: center;
+	padding: 21rem 0;
+
+	@include respond(tab-port) {
+		padding: 5rem 0;
+		width: 100%;
+	}
+}

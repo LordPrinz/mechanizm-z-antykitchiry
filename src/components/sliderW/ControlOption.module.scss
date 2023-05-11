@@ -1,0 +1,78 @@
+@import "./../../scss/abstracts/variables";
+.control__option {
+    width: 100%;
+    padding: 1.8rem 0;
+    text-align: center;
+    color: darken($color-light, 50%);
+    transition: 0.2s;
+    user-select: none;
+    text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 1px;
+        left: 0;
+        background-color: darken($color-light, 50%);
+    }
+    &:last-child {
+        border-bottom: 1px solid darken($color-light, 50%);
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: darken($color-light, 52%);
+        transition: 0.2s;
+        color: darken($color-light, 20%);
+        border: 0;
+        &::before {
+            opacity: 0;
+        }
+        &+div {
+            &::before {
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.active {
+    background-color: darken($color-light, 50%);
+    color: $color-light;
+    border: 0;
+}
+
+.loading {
+    &::after {
+        content: "";
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgb(45, 45, 45);
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        mix-blend-mode: exclusion;
+        transform: translateX(-100%);
+        animation: loading 10s;
+        animation-timing-function: linear;
+    }
+    border-bottom: none !important;
+    &::before {
+        opacity: 0;
+    }
+    &::hover {
+        background-color: $color-grey-darker !important;
+    }
+}
+
+@keyframes loading {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}

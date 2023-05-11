@@ -1,0 +1,27 @@
+@import "./../../scss/abstracts/variables";
+.footer {
+    &__item {
+        display: inline-block;
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+    &__link {
+        list-style: none;
+        &:link,
+        &:visited {
+            color: #f7f7f7;
+            background-color: #333;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all 0.2s;
+        }
+        &:hover,
+        &:active {
+            color: $color-primary;
+            box-shadow: 0 1rem 2rem rgba(#000, 0.4);
+            transform: rotate(5deg) scale(1.3);
+        }
+    }
+}

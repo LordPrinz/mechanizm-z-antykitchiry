@@ -1,0 +1,28 @@
+@import "./../../scss/abstracts/variables";
+@import "./../../scss/abstracts/mixins";
+
+.navigation__background {
+	height: 6.3rem;
+	width: 6.3rem;
+	border-radius: 50%;
+	position: fixed;
+	top: 6rem;
+	right: 6rem;
+	background-image: radial-gradient($color-secondary, $color-primary);
+	z-index: 1000;
+	transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+	transform: scale(0.9);
+	user-select: none;
+	@include respond(tab-port) {
+		top: 4rem;
+		right: 4rem;
+	}
+	@include respond(phone) {
+		top: 3rem;
+		right: 3rem;
+	}
+}
+
+.active {
+	transform: scale(140);
+}

@@ -1,0 +1,75 @@
+@import "./../../scss/abstracts/variables";
+@import "./../../scss/abstracts/mixins";
+.navigation {
+	&__button {
+		outline: 0;
+		border: 0;
+		background-color: #fff;
+		height: 6.3rem;
+		width: 6.3rem;
+		position: fixed;
+		top: 6rem;
+		right: 6rem;
+		border-radius: 50%;
+		z-index: 2000;
+		box-shadow: 0 1rem 3rem rgba(#000, 0.1);
+		text-align: center;
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		@include respond(tab-port) {
+			top: 4rem;
+			right: 4rem;
+		}
+		@include respond(phone) {
+			top: 3rem;
+			right: 3rem;
+		}
+	}
+	&__icon {
+		user-select: none;
+		position: relative;
+		// margin-top: 1.45rem;
+		&,
+		&::before,
+		&::after {
+			width: 3rem;
+			height: 2px;
+			background-color: $font-color;
+			display: inline-block;
+		}
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			transition: all 0.2s;
+		}
+		&::before {
+			top: -0.8rem;
+		}
+		&::after {
+			top: 0.8rem;
+		}
+	}
+	&__button:hover &__icon::before {
+		top: -1rem;
+	}
+	&__button:hover &__icon::after {
+		top: 1rem;
+	}
+}
+
+.active {
+	background-color: transparent;
+
+	&::before {
+		top: 0 !important;
+		transform: rotate(-135deg);
+	}
+	&::after {
+		top: 0 !important;
+		transform: rotate(135deg);
+	}
+}

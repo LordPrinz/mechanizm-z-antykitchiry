@@ -1,0 +1,16 @@
+.source {
+    background: rgb(250, 250, 250);
+    display: grid;
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat( 8, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+    padding-bottom: 15rem;
+}
+
+.header {
+    grid-column: center-start/center-end;
+    margin-top: 8rem;
+}
+
+.list {
+    grid-column: center-start/center-end;
+    grid-row: 2/3;
+}

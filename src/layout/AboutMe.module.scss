@@ -1,0 +1,84 @@
+@import "./../scss/abstracts/variables";
+@import "./../scss/abstracts/mixins";
+.aboutMe {
+    display: grid;
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat( 8, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+    padding-top: 10rem;
+    padding-bottom: 36rem;
+    position: relative;
+    background: rgb(250, 250, 250);
+}
+
+.text {
+    grid-column: center-start/col-start 6;
+    grid-row: 1/2;
+    margin-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+    .heading {
+        text-align: center;
+    }
+    @include respond(tab-port) {
+        grid-column: center-start/center-end;
+    }
+}
+
+.photo {
+    grid-row: 1/2;
+    grid-column: col-end 5 / center-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 2rem;
+    @include respond(tab-port) {
+        grid-column: center-start / center-end;
+        grid-row: 2/3;
+        align-items: center;
+        margin-top: 6rem;
+    }
+}
+
+.image {
+    &__cover {
+        aspect-ratio: 1/1;
+        width: 60%;
+        max-width: 50rem;
+        min-width: 30rem;
+        border-radius: 100%;
+        position: relative;
+        background-color: lighten($color-tertiary, 20%);
+        @include respond(tab-port) {
+            width: 30%;
+        }
+        // transform: translate(-30%, -15%);
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            top: 10%;
+            right: 10%;
+            background-image: url("./../../public/me.png");
+            opacity: 0.95;
+            background-position: top center;
+            background-size: cover;
+        }
+    }
+}
+
+.wave {
+    grid-column: full-start/full-end;
+    &>path {
+        fill: $color-light;
+    }
+    position: absolute;
+    bottom: 0;
+}
+
+.btn {
+    align-self: flex-start;
+    margin-top: 1rem;
+}

@@ -1,0 +1,66 @@
+@import "./../scss/abstracts/variables";
+@import "./../scss/abstracts/mixins";
+.about {
+    background-color: $color-light;
+    padding: 10rem 0;
+    grid-column: full-start/full-end;
+    display: grid;
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat( 8, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+    grid-template-rows: repeat(2, min-content);
+    position: relative;
+}
+
+.heading {
+    grid-row: 1/2;
+    grid-column: center-start/center-end;
+}
+
+.flex-container {
+    display: flex;
+    grid-column: center-start/center-end;
+    grid-row: 2/3;
+    z-index: 2;
+
+    @include respond(tab-port) {
+        flex-direction: column;
+    }
+}
+
+.text {
+    font-size: 1.7rem;
+    flex: 2;
+    margin-right: 6rem;
+
+    @include respond(tab-port) {
+        margin: 0 auto;
+    }
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.2rem;
+    &-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include respond(tab-port) {
+            padding-top:5rem;
+        }
+    }
+
+    @include respond(tab-port) {
+        max-width: 35rem;
+    }
+}
+
+.wave {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    min-width: 100%;
+    max-height: 400px;
+    transform: scaleY(-1) translateY(-100%);
+}

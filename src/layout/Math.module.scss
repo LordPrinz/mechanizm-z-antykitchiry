@@ -1,0 +1,57 @@
+@import "./../scss/abstracts/variables";
+@import "./../scss/abstracts/mixins";
+.math {
+    background-color: $color-grey-darker;
+    color: $color-light;
+    grid-column: full-start/full-end;
+    display: grid;
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat( 8, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+}
+
+.header {
+    grid-column: center-start/center-end;
+}
+
+.container {
+    grid-column: center-start/center-end;
+}
+
+.table {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(5, minmax(min-content, 1fr));
+    text-align: center;
+    margin-top: 10rem;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.value {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: $color-grey-dark;
+}
+
+.blue {
+    color: $color-secondary;
+}
+
+.red {
+    color: rgba(219, 52, 52, 0.913);
+}
+
+.iteration {
+    margin-left: 3rem;
+}
+
+.heading__iteration {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}

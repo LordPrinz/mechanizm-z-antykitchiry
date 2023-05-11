@@ -1,0 +1,55 @@
+@import "./../scss/base/animations";
+@import "./../scss/abstracts/variables";
+@import "./../scss/abstracts/mixins";
+.header {
+    background-image: linear-gradient( to right bottom, rgba($color-secondary, 0.8), rgba($color-primary, 0.8)), url("./../../public/hero.jpg");
+    background-size: cover;
+    background-position: bottom left;
+    grid-column: full-start/full-end;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wave {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    min-width: 100%;
+    max-height: 400px;
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+    backface-visibility: hidden;
+    &-main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 2.5rem;
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        @include respond(phone) {
+            font-size: 4rem;
+            letter-spacing: 2rem;
+        }
+    }
+    &-sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 2rem;
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        @include respond(phone) {
+            font-size: 1.3rem;
+            letter-spacing: 1.8rem;
+        }
+    }
+}

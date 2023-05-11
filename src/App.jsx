@@ -1,11 +1,14 @@
-import WebGLCanvas from "./components/WebGL/WebGLCanvas";
+import { Route, Routes } from "react-router-dom";
+import AboutPage from "./pages/AboutPage";
+import Main from "./pages/Main";
 
-function App() {
+const App = () => {
 	return (
-		<div className="App">
-			<WebGLCanvas />
-		</div>
+		<Routes>
+			<Route path="/" element={<Main />} />
+			<Route path="about" element={<AboutPage />} />
+		</Routes>
 	);
-}
+};
 
 export default App;

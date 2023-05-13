@@ -3,8 +3,8 @@ import SourceItem from "./SourceItem";
 
 const sources = [
 	{
-		name: "Youtube",
-		url: "https://www.youtube.com/watch?v=0KpZKPdLBaE&t=2447s&ab_channel=DEX",
+		name: "YouTube",
+		url: "https://youtu.be/0KpZKPdLBaE",
 	},
 	{
 		name: "YouTube",

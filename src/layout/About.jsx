@@ -19,21 +19,25 @@ const About = () => {
 						Czym jest mechanizm z Antykithiry?
 					</Heading>
 					<Paragraph>
-						Mechanizm z Antykithiry to tajemniczy, starożytny przyrząd służący
-						do obliczania pozycji ciał niebieskich. Mechanizm powstał ponad 2000
-						lat temu. Był on najbardziej złożonym mechanizmem do czasów
-						XVII-wiecznych zegarów. Autor tego dzieła techniki nie jest jeszcze
-						znany. Ale z odczytu inskrypcji wykonanych w brązie wynika, że autor
-						miał świetną znajomość astromii i matematyki.
+						Mechanizm z Antykithiry, to starożytny, mechaniczny przyrząd
+						obliczeniowy odkryty w 1901 roku na wraku statku z około 60 p.n.e.
+						na dnie Morza Egejskiego, koło greckiej wyspy Antikythera.
 					</Paragraph>
 
 					<Paragraph>
-						Mechanizm mimo, że nie przypomina dzisiejszego komputera to spełniał
-						podobne funkcje - liczył. Mechanizm z Antykithiry często określa się
-						mianem pierwszego komputera lub starożytnego komputera. Obiekt łączy
-						w sobie wiedzę greckich, egipskich i babilońskich myślicieli.
-						Badania tego mechanizmu <b>wciąż</b> się nie zakończyły. Na zdjęciu
-						obok można zobaczyć największy kawałek tego niezwykłego urządzenia.
+						Mechanizm z Antykithiry jest uważany za jedno z najważniejszych
+						odkryć archeologicznych i jest uznawany za najstarsze znane
+						urządzenie obliczeniowe na świecie. Składa się z serii kołowych
+						bębnów i trybików, wykonanych z brązu. Przyrząd był zaawansowany
+						technologicznie jak na swoje czasy i prawdopodobnie służył do
+						przeprowadzania skomplikowanych obliczeń astronomicznych.
+					</Paragraph>
+
+					<Paragraph>
+						Badania wykazały, że Mechanizm z Antykithiry mógł być używany do
+						przewidywania pozycji planet, dat zaćmień słonecznych i księżycowych
+						oraz innych zjawisk astronomicznych. Być może mógł również służyć
+						jako kalendarz lub do obliczania cykli olimpijskich.
 					</Paragraph>
 					<Button target="#origin">Pochodzenie &rarr;</Button>
 				</div>

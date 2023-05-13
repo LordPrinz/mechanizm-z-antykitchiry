@@ -28,7 +28,7 @@ const data = [
 			"https://cdn.pellerex.com/public/ecosystem/web/content/web-spa-routing/pellerex-spa-routing.png",
 		url: "https://reactrouter.com/",
 		description:
-			"Biblioteka React.js umożliwiająca przechodznie między podstronami.",
+			"Biblioteka React.js umożliwiająca przechodzenie między podstronami.",
 	},
 	{
 		name: "Vite",
@@ -72,7 +72,7 @@ const data = [
 			"Specyfikacja otwartego API służąca do renderowania i tworzenia wysokiej jakości grafiki, animacji oraz obrazów przestrzennych",
 	},
 	{
-		name: "Threejs",
+		name: "Three.js",
 		image:
 			"https://seeklogo.com/images/T/three-js-logo-07A32307F1-seeklogo.com.png",
 		url: "https://threejs.org/",

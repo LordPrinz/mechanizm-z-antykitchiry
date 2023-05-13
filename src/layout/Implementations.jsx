@@ -7,7 +7,7 @@ const implementations = [
 	{
 		img: "https://media.discordapp.net/attachments/657658801863917568/970327850571952128/lego--1.jpg",
 		title: "Polski prototyp lego",
-		text: "Konstrukcja została złożona przez Marka Mazurkiewicza 19 września 2011 w ramach XV Festiwalu Nauki w Centrumu Astronomicznym im. Mikołaja Kopernika.",
+		text: "Konstrukcja została złożona przez Marka Mazurkiewicza 19 września 2011 w ramach XV Festiwalu Nauki w Centrum Astronomicznym im. Mikołaja Kopernika.",
 	},
 	{
 		img: "https://media.discordapp.net/attachments/657658801863917568/970326859642470400/xd.jpg",

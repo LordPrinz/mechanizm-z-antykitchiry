@@ -29,7 +29,7 @@ const Research = () => {
 						Numizmatycznego - Ioannisowi Svoronosowi oraz filologowi Adolphowi
 						Wilhelmowi z Austriackiego Instytutu Archeologicznego w Atenach.
 						Wilhelm na podstawie analizy inskrypcji uznał, że przyrząd powstał
-						między II wiekiem n.p.e. a II wiekiem n.e. Svoronosowi przy pomocy
+						między II wiekiem p.n.e. a II wiekiem n.e. Svoronosowi przy pomocy
 						mikroskopa udało się odczytać 220 greckich liter i dostrzegł wyryte
 						na mechaniźmie znaki zodiaku.
 					</Paragraph>
@@ -48,10 +48,10 @@ const Research = () => {
 						badaczowi odczytać więcej napisów. Odcyfrował m.in. nazwę jednego z
 						miesięcy używanego w kalendarzu greckim. Na tej podstawie Rehm
 						uznał, że przyrząd był pewnego rodzaju astronimicznym kalkulatorem.
-						W latach 20 XX Ioannis Theofanidis poświęcił dekadę aby poczas niej
-						odczytać 350 kolejnych liter, odkrył podziałkę na jednej z części,
-						stwierdził, że mniejsze koła były uruchamiane przez większe, całość
-						mechanizmu była wprawiana w ruch za pomocą korby.
+						W latach 20. XX w. Ioannis Theofanidis poświęcił dekadę aby poczas
+						niej odczytać 350 kolejnych liter, odkrył podziałkę na jednej z
+						części, stwierdził, że mniejsze koła były uruchamiane przez większe,
+						całość mechanizmu była wprawiana w ruch za pomocą korby.
 					</Paragraph>{" "}
 					<img
 						src="./mechanizm--czesci.png"
@@ -68,11 +68,11 @@ const Research = () => {
 				</Heading>
 				<div className={`${classes["paragraph--3"]} u-margin-bottom-big`}>
 					<Paragraph>
-						Do wznowienia badań doszło w latach 50 XX. wieku. Matematyk Yale
+						Do wznowienia badań doszło w latach 50. XX wieku. Matematyk Yale
 						Derek de Solla Price uzyskał zgodę na osobisty ogląd eksponatu.
 						Price analizował fragmenty mechanizmu pod mikroskopem. Z
 						matematykiem współpracował grecki epigrafik George Stamires i
-						poszerzył ona gamę odczytanych liter aż do 800. Badacze ustalili, że
+						poszerzył on gamę odczytanych liter aż do 800. Badacze ustalili, że
 						mechanizm był niewielki, płaski i przechowywany w drewnianej
 						skrzynce. Urządzenie na przodzie miało dużą tarczę, za nią zaś były
 						umieszczone dwie kolejne. W górnej części tarczy Stamires odczytał
@@ -102,17 +102,17 @@ const Research = () => {
 				</Heading>
 				<div className={`${classes["paragraph--4"]} u-margin-bottom-big`}>
 					<Paragraph className={`${classes.paragraph}`}>
-						Na początku lat 70 XX. wieku y brytyjski pisarz science-fiction
-						Arthur C. Clarke zachęcił Price'a do wykorzystania w badaniach
-						fotografii rentgenowskiej. W 1971 roku przy pomocy przenośnego
-						aparatu rentgenowskiego wykonano fotografie poszczególnych
-						fragmentów mechanizmu. Dzięki zdjęciom Solla Price mógł dokładkie
-						określić ile było wszystkich kół i tarcz, ile ząbków miała każda z
-						nich oraz jakie było ich wzajemne położenie. Po badaniach Amerykanin
-						zbudował model mechanizmu z Antykithiry. Znając liczbę kół, liczbę
-						ich ząbków oraz ich rozpieszczenie, mógł ustalić, z jaką szybkością
-						i o ile obracały się tarcze, a na tej podstawie wywnioskować, co
-						mogły pokazywać.
+						Na początku lat 70. XX wieku brytyjski pisarz science-fiction Arthur
+						C. Clarke zachęcił Price'a do wykorzystania w badaniach fotografii
+						rentgenowskiej. W 1971 roku przy pomocy przenośnego aparatu
+						rentgenowskiego wykonano fotografie poszczególnych fragmentów
+						mechanizmu. Dzięki zdjęciom Solla Price mógł dokładnie określić ile
+						było wszystkich kół i tarcz, ile ząbków miała każda z nich oraz
+						jakie było ich wzajemne położenie. Po badaniach Amerykanin zbudował
+						model mechanizmu z Antykithiry. Znając liczbę kół, liczbę ich ząbków
+						oraz ich rozpieszczenie, mógł ustalić, z jaką szybkością i o ile
+						obracały się tarcze, a na tej podstawie wywnioskować, co mogły
+						pokazywać.
 					</Paragraph>
 					<img
 						src="rentgen.jpg"
@@ -134,7 +134,7 @@ const Research = () => {
 						Uniwersytetu w Sydney. Ponownie dokonali jego dokładnego oglądu,
 						obfotografowali go rentgenowsko oraz przeprowadzili jego tomografię
 						przy pomocy specjalnie skonstruowanego na potrzeby badań drogiego
-						urządzenia. Ich zdaniem urządzanie służyło do odtwarzania ruchu
+						urządzenia. Ich zdaniem urządzenie służyło do odtwarzania ruchu
 						Merkurego, Wenus, Marsa, Jowisza i Saturna. Mechanizm wskazywał też
 						lata, na które przypadały igrzyska olimpijskie. W 2000 roku kolejne
 						pokolenie badaczy wyposażone w jeszcze nowszy sprzęt przeprowadziła

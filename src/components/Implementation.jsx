@@ -51,7 +51,7 @@ const Implementation = (props) => {
 	const embed = (
 		<iframe
 			className={classes.iframe}
-			src="https://www.youtube.com/embed/IT0gXa1ZrnA"
+			src="https://www.youtube.com/embed/k396J-slHaU"
 			title="YouTube video player"
 			frameBorder="0"
 			allow="accelerometer;"

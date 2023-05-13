@@ -1,21 +1,31 @@
 @import "./../scss/abstracts/variables";
 .visualization {
-    grid-column: full-start/full-end;
-    display: grid;
-    grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat( 8, [col-start] minmax(min-content, 15rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
-    grid-template-rows: repeat(2, min-content);
-    position: relative;
-    background-color: $color-grey-darker;
-    padding-bottom: 9rem;
+	grid-column: full-start/full-end;
+	display: grid;
+	grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(
+			8,
+			[col-start] minmax(min-content, 15rem) [col-end]
+		) [center-end] minmax(6rem, 1fr) [full-end];
+	grid-template-rows: repeat(3, min-content) 70vh;
+	position: relative;
+	background-color: $color-grey-darker;
+	padding-bottom: 9rem;
 }
 
 .heading {
-    color: white;
-    grid-column: center-start/center-end;
-    margin-top: 10rem;
+	color: white;
+	grid-column: center-start/center-end;
+	margin-top: 10rem;
 }
 
 .slider {
-    grid-column: center-start/center-end;
-    padding-top: 3rem;
+	grid-column: center-start/center-end;
+	padding-top: 3rem;
+	margin-bottom: 2rem;
+}
+
+.canvas__container {
+	margin-top: 7rem;
+	position: relative;
+	grid-column: center-start/center-end;
 }

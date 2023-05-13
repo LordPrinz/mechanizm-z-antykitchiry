@@ -4,11 +4,11 @@ import SourceItem from "./SourceItem";
 const sources = [
 	{
 		name: "Youtube",
-		url: "https://www.youtube.com/watch?v=xB6FPhG0ZZ8&t=259s&ab_channel=RaVBTM",
+		url: "https://www.youtube.com/watch?v=0KpZKPdLBaE&t=2447s&ab_channel=DEX",
 	},
 	{
 		name: "YouTube",
-		url: "https://www.youtube.com/watch?v=IT0gXa1ZrnA",
+		url: "https://www.youtube.com/watch?v=UDFaAjjWzt8&ab_channel=AMORSCIENTIAE",
 	},
 	{
 		name: "Wikipedia",

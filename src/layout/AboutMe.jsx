@@ -15,8 +15,8 @@ const AboutMe = () => {
 					</Heading>
 				</header>
 				<Paragraph className={`u-margin-bottom-big`}>
-					Nazywam się Oskar Płaziński, mam 18 lat. Chodzę do Technikum nr 1 w
-					Gliwicach. Jestem w klasie 3 programistycznej. Uwielbiam programować i
+					Nazywam się Oskar Płaziński, mam 19 lat. Chodzę do Technikum nr 1 w
+					Gliwicach. Jestem w klasie 4 programistycznej. Uwielbiam programować i
 					grać na pianinie. Moim ulubionym językiem programowania jest
 					Typescript / JavaScript. Bardzo często używam tych języków do
 					tworzenia aplikacji internetowych, serwerów, botów, aplikacji

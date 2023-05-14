@@ -22,7 +22,7 @@ const Math = () => {
 				</Paragraph>
 				<Paragraph className="u-margin-bottom-big">
 					Mechanizm został zbudowany w oparciu o wiedzę matematyczną i
-					astronomiczną uczonych z babilonu oraz teorie starożytnych greków.
+					astronomiczną uczonych z Babilonu oraz teorie starożytnych Greków.
 					Ważnym elementem była relacja okresowa planet. Ilość zębów w danym
 					kole zębatych była określona poprzez zależności okresowe planet.
 					Relacje te były odkryte głównie przez Babilończków. Przykładem
@@ -39,7 +39,7 @@ const Math = () => {
 					<span className={classes.blue}>57</span>
 					{", "}
 					<span className={classes.red}>59</span>). W tym przypadku liczby nie
-					zostały jeszcze poddane swobodnemu procesowi parmanidesa, dlatego też
+					zostały jeszcze poddane swobodnemu procesowi Parmanidesa, dlatego też
 					podana zależność okresowa, na pierwszy rzut oka może wydawać się inna
 					od tej podanej wcześniej w tekście. Relacje te były odtworzone dzięki
 					rozbiciu liczb na czynniki i zautomatyzowaniu przy pomocy kół zębatych
@@ -58,6 +58,16 @@ const Math = () => {
 					Swobodny proces Parmenidesa:
 				</Heading>
 				<div className={classes.iteration}>
+					<span className={classes.blue}>p - cykle synodyczne</span> <br />
+					<span className={classes.red}>
+						r - cykle synodyczne obliczone za czasów epoki hellenistycznej
+					</span>
+					<br /> <span className={classes.blue}>q - ilość lat</span> <br />
+					<span className={classes.red}>
+						s - ilość lat obliczonych za czasów epoki hellenistycznej
+					</span>{" "}
+					<br />
+					<br />
 					<i>Iteracja 1: </i>(<span className={classes.blue}>p</span> +{" "}
 					<span className={classes.red}>r</span>,{" "}
 					<span className={classes.blue}>q</span> +{" "}
@@ -127,7 +137,7 @@ const Math = () => {
 					<div className={`${classes.value} `}>q + 3s = 854 </div>
 				</div>
 				<Heading size="3" className={classes.heading__iteration}>
-					Relacje okresowe w mechanizmie:
+					Relacje okresowe w mechaniźmie z Antykithiry:
 				</Heading>
 				<div className={classes.table}>
 					<div className={classes.captions}>Planeta</div>

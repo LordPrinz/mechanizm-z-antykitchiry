@@ -15,13 +15,15 @@ const AboutMe = () => {
 					</Heading>
 				</header>
 				<Paragraph className={`u-margin-bottom-big`}>
-					Nazywam się Oskar Płaziński, mam 19 lat. Chodzę do Technikum nr 1 w
-					Gliwicach. Jestem w klasie 4 programistycznej. Uwielbiam programować i
-					grać na pianinie. Moim ulubionym językiem programowania jest
-					Typescript / JavaScript. Bardzo często używam tych języków do
-					tworzenia aplikacji internetowych, serwerów, botów, aplikacji
-					mobilnych oraz aplikacji desktopowych. Chciałbym się dalej rozwijać i
-					nabierać doświadczenia w tej branży.
+					Nazywam się Oskar Płaziński, mam 19 lat. Uczę się w 4 klasie technikum
+					o kierunku programista w ZSTI Gliwice Technikum nr 1.
+					<br />
+					Uwielbiam programować i grać na pianinie. Moim ulubionym językiem
+					programowania jest Typescript / JavaScript. Bardzo często używam tych
+					języków do tworzenia aplikacji internetowych, serwerów, botów,
+					aplikacji mobilnych oraz aplikacji desktopowych.
+					<br />
+					Chciałbym się dalej rozwijać i nabierać doświadczenia w tej branży.
 				</Paragraph>
 				<Heading className="u-margin-bottom-small" size="3">
 					Dlaczego Mechanizm z Antykithiry?

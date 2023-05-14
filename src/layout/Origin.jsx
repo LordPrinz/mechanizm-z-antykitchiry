@@ -54,8 +54,8 @@ const Origin = () => {
 						Czasy starożytne
 					</Heading>
 					<Paragraph className="u-margin-bottom-big">
-						Mechanizm powstał na Greckiej wyspie Antykithira przez nieznanego
-						wybitnego uczonego. Uznaje się, że podczas Rzymskiej inwazji na
+						Mechanizm powstał na greckiej wyspie Antykithira przez nieznanego
+						wybitnego uczonego. Uznaje się, że podczas rzymskiej inwazji na
 						Grecję mechanizm wraz z wieloma dziełami sztuki został skradziony.
 						Niestety podczas powrotu rzymskiej galery statek przewożący łupy
 						zatonął na skutek sztormu.
@@ -72,7 +72,7 @@ const Origin = () => {
 						Mechanizm odkryto przypadkiem. W 1900 roku grecki nurek Elias
 						Stadiato podczas połowów gąbek w okolicy wyspy Antykithira na
 						wysokości 42m zauważył wrak statku handlowego. Po podpłynięciu
-						bliżej ujrzał mnówstwo Greckich rzeźb z marmuru i brąu. Była to
+						bliżej ujrzał mnówstwo greckich rzeźb z marmuru i brąu. Była to
 						część zatopionego skarbu antycznej Grecji. Nurkowie ocalili
 						przepiękne zabytki antycznej Grecji. Jak się później okazało,
 						najbardziej drogocennym elementem skarbu był kawałek brązu, który w

@@ -4,7 +4,7 @@
 	"private": true,
 	"homepage": "https://mechanizm-z-antykitchiry.vercel.app/",
 	"dependencies": {
-		"@react-three/drei": "^9.68.1",
+		"@react-three/drei": "^9.74.9",
 		"@react-three/fiber": "^8.13.0",
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",

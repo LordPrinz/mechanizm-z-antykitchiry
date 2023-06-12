@@ -1,4 +1,9 @@
-import { OrbitControls, PresentationControls, Stage } from "@react-three/drei";
+import {
+	Environment,
+	OrbitControls,
+	PresentationControls,
+	Stage,
+} from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import WebGLModel from "./WebGLModel.jsx";
 

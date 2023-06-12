@@ -7,7 +7,7 @@ const WebGLCanvas = () => {
 		<Canvas dpr={[1, 5]} camera={{ fov: 75 }} style={{ position: "absolute" }}>
 			<color attach="background" args={["#313131"]} />
 			<PresentationControls speed={0.5} global polar={[-0.1, Math.PI / 3]}>
-				<Stage environment={"forest"}>
+				<Stage>
 					<WebGLModel scale={0.0001} />
 				</Stage>
 			</PresentationControls>
